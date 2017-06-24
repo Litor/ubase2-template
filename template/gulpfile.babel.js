@@ -1,7 +1,7 @@
 import ubase from 'ubase-vue'
 
 ubase({
-  dist:'/www/',
+  dist:'./www/',
 
   port: '8082'
 })
