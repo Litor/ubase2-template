@@ -5,11 +5,11 @@
   "main": "",
   "scripts": {
     "dev": "gulp --debug",
-    "build": "gulp -p"
+    "build": "gulp webpack -p"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ubase-vue": "^2.1.7"
+    "ubase-vue": "^2.3.4"
   }
 }
