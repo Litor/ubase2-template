@@ -9,6 +9,10 @@
   },
   "author": "",
   "license": "ISC",
+  "babel":{
+    "presets": ["es2015","stage-2"],
+    "plugins": ["transform-vue-jsx"]
+  },
   "dependencies": {
     "ubase-vue": "^2.3.4"
   }
