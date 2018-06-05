@@ -14,7 +14,7 @@
   export default {
     data:function () {
       return {
-        logo:require('statics/images/logo.png')
+        logo:require('statics/images/smile.png')
       }
     },
 
