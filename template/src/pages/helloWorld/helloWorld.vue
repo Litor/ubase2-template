@@ -25,7 +25,10 @@
     },
 
     mounted(){
-      console.log(this.$root.config.name)
+      console.log('vuex: '+ this.index.description)
+      console.log('i18n: '+ this.$t('test.title'))
+      console.log('config.json: '+ this.$root.config.name)
+      console.log('service: '+ this.$service.api.getList)
     }
   }
 </script>
